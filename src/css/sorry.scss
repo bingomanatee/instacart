@@ -1,0 +1,27 @@
+$canadian-red: #BC3434;
+$carrot: #FF8200;
+
+@import '../../node_modules/react-md/src/scss/react-md';
+
+.content-frame {
+  max-width: 1200px;
+  padding-left: 300px;
+  @media screen and (max-width: $md-tablet-min-width) {
+    padding-left: 50px;
+  }
+}
+
+$cfi-radius: 1.25rem;
+$cfi-inner-color: #e4fff8;
+
+.content-frame__inner {
+  border-radius: $cfi-radius;
+  padding: 1rem 4rem;
+  background-color: $cfi-inner-color;
+  @include md-box-shadow(3);
+  min-height: 50rem;
+  @media screen and (max-width: $md-tablet-min-width) {
+    border-radius: $cfi-radius 0 0 $cfi-radius;
+    padding: 0.5rem 2rem;
+  }
+}

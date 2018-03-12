@@ -1,0 +1,21 @@
+@import './css/sorry';
+
+.page-frame {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+.headline {
+  font-family: Slackey, 'Fredoka One', sans-serif;
+  font-size: 2rem;
+  color: $carrot;
+  margin : 3rem 0;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 1px 13px rgba(0,0,0, 0.75);
+}

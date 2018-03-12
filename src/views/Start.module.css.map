@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,cAAe;EACb,SAAS,EAAE,MAAM;EACjB,YAAY,EAAE,KAAK;EACnB,oCAAoD;IAHtD,cAAe;MAIX,YAAY,EAAE,IAAI;;AAOtB,qBAAsB;EACpB,aAAa,EAJF,OAAO;EAKlB,OAAO,EAAE,SAAS;EAClB,gBAAgB,EALA,OAAO;ECuDnB,UAAU,EAAE,qGAAsG;EDhDtH,UAAU,EAAE,KAAK;EACjB,oCAAoD;IANtD,qBAAsB;MAOlB,aAAa,EAAE,mBAA2B;MAC1C,OAAO,EAAE,WAAW",
+"sources": ["../css/sorry.scss","../../node_modules/react-md/src/scss/components/_papers.scss"],
+"names": [],
+"file": "Start.module.css"
+}
